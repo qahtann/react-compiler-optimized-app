@@ -1,0 +1,49 @@
+{
+  "name": "react-compiler-optimized-app",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Performance-focused demo app showcasing React Compiler optimizations",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "test": "vitest",
+    "test:ui": "vitest --ui"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^6.28.0",
+    "@tanstack/react-query": "^5.56.2",
+    "@tanstack/react-virtual": "^3.11.2",
+    "recharts": "^2.12.7",
+    "lucide-react": "^0.427.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.5.2",
+    "class-variance-authority": "^0.7.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "tailwindcss": "^4.0.0",
+    "postcss": "^8.4.47",
+    "autoprefixer": "^10.4.20",
+    "babel-plugin-react-compiler": "^19.0.0-rc-66855b96-20241104",
+    "@babel/core": "^7.26.0",
+    "vitest": "^2.1.3",
+    "@vitest/ui": "^2.1.3",
+    "@testing-library/react": "^16.0.1",
+    "@testing-library/jest-dom": "^6.6.3",
+    "eslint": "^9.15.0",
+    "@typescript-eslint/eslint-plugin": "^8.15.0",
+    "@typescript-eslint/parser": "^8.15.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.11",
+    "globals": "^15.11.0",
+    "typescript-eslint": "^8.15.0"
+  }
+}
